@@ -1,13 +1,21 @@
 /*media queries sm */
 @media only screen and (min-width: 576px) {
 
-    .contenedor_logo_txt{       
-        img{
-            display: inline-block!important;
-        width: 40px;
-        margin: 0px 10px;
-        }    
+
+    header{
+        .contenedor_nav{
+            .container-fluid{
+                .contenedor_logo_txt{
+                    img{
+                        display: inline-block!important;
+                        width: 40px;
+                        margin: 0px 10px;
+                    }      
+                }
+            }
+        }
     }
+       
     
     .titulo_proyectos {
         margin: 10px 10px;

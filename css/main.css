@@ -123,6 +123,12 @@ header .contenedor_nav .container-fluid .contenedor_boton:hover {
   font-weight: 600;
 }
 
+/*benner*/
+.trabajo_banner {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 /*servicios*/
 .titulo_secciones {
   margin-left: 10px;
@@ -233,7 +239,7 @@ a:hover {
 
 /*media queries sm */
 @media only screen and (min-width: 576px) {
-  .contenedor_logo_txt img {
+  header .contenedor_nav .container-fluid .contenedor_logo_txt img {
     display: inline-block !important;
     width: 40px;
     margin: 0px 10px;
